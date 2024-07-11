@@ -6,11 +6,6 @@ module.exports = {
   ],
   theme: {
     extend: {
-      backgroundImage: {
-        "hero-pattern":
-          "url('/Users/hemanthkumar/Documents/MCA/23mx110/portfolio/src/images/bg-secondary.jpg')",
-        // 'footer-texture': "url('/img/footer-texture.png')",
-      },
       backdropBlur: {
         xs: '2px',
       },
