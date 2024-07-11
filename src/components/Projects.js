@@ -1,5 +1,5 @@
-import websiteImg1 from "/Users/hemanthkumar/Documents/MCA/23mx110/portfolio/src/images/pawcare.jpeg";
-import websiteImg2 from "/Users/hemanthkumar/Documents/MCA/23mx110/portfolio/src/images/habitsync.jpeg";
+import websiteImg1 from "../images/pawcare.jpeg";
+import websiteImg2 from "../images/habitsync.jpeg";
 import websiteImg3 from "../images/dweb.jpeg";
 
 export default function Projects() {
