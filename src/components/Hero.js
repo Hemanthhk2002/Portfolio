@@ -11,7 +11,7 @@ export default function Herio() {
           <b className="text-5xl">I am Hemanth Kumar V</b>
           <br />
           <p className="text-2xl text-gray-300">MCA</p>
-          <div className="flex gap-5  py-5">
+          <div className="flex gap-5 text-[60px] py-5">
             <a
               className="hover:text-gray-500"
               href="mailto:hemanthkumarv2k02@gmail.com?subject=Hello%20there&body=This%20is%20a%20predefined%20email%20body."
