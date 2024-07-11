@@ -18,315 +18,334 @@ import Github from "../Assets/GitHub.png";
 
 import "./Skills.css";
 
-function InfinityScroll() {
+export default function Skills() {
   return (
     <>
-      <div className=" w-[1000px] mx-auto  " id="skills">
-        <div className="text-[3rem] text-white font-[700]">Skills</div>
-        <div className="text-gray-400">Known Technologies are</div>
-      </div>
-      <div className="w-[1100px] mx-auto max-w-full flex items-center whitespace-nowrap  mt-10 overflow-hidden ">
-        <div className="flex items-center gap-1 scroll-right-to-left">
-          <img src={HTML} alt="HTML" className=" mx-10 min-w-[50px] w-[50px]" />
-          <img src={CSS} alt="CSS" className=" mx-10 min-w-[48px] w-[48px]" />
-          {/* <img src={Sass} alt="Sass" className=' mx-10 min-w-[48px] w-[48px]' /> */}
-          <img
-            src={Bootstrap}
-            alt="Bootstrap"
-            className=" mx-10 min-w-[60px] w-[60px]"
-          />
-          <img
-            src={Tailwind}
-            alt="Tailwind"
-            className=" mx-10 min-w-[60px] w-[60px]"
-          />
-          <img
-            src={JavaScript}
-            alt="JavaScript"
-            className=" mx-10 min-w-[60px] w-[60px]"
-          />
-          <img
-            src={ReactJS}
-            alt="ReactJS"
-            className=" mx-10 min-w-[130px] w-[130px]"
-          />
-          {/* <img src={Next} alt="Next" className=' mx-10 min-w-[130px] w-[130px]' /> */}
-          <img src={HTML} alt="HTML" className=" mx-10 min-w-[50px] w-[50px]" />
-          <img src={CSS} alt="CSS" className=" mx-10 min-w-[48px] w-[48px]" />
-          {/* <img src={Sass} alt="Sass" className=' mx-10 min-w-[48px] w-[48px]' /> */}
-          <img
-            src={Bootstrap}
-            alt="Bootstrap"
-            className=" mx-10 min-w-[60px] w-[60px]"
-          />
-          <img
-            src={Tailwind}
-            alt="Tailwind"
-            className=" mx-10 min-w-[60px] w-[60px]"
-          />
-          <img
-            src={JavaScript}
-            alt="JavaScript"
-            className=" mx-10 min-w-[60px] w-[60px]"
-          />
-          <img
-            src={ReactJS}
-            alt="ReactJS"
-            className=" mx-10 min-w-[130px] w-[130px]"
-          />
-          {/* <img src={Next} alt="Next" className=' mx-10 min-w-[130px] w-[130px]' /> */}
+      <div id="Skills" className="mb-36 mt-28">
+        <div className=" w-[1000px] mx-auto  " id="skills">
+          <div className="text-[3rem] text-white font-[700] ext-4xl ">
+            SKILLS
+          </div>
+          <div className="text-gray-400">Known Technologies are</div>
         </div>
-        <div className="flex items-center gap-1 scroll-right-to-left">
-          <img src={HTML} alt="HTML" className=" mx-10 min-w-[50px] w-[50px]" />
-          <img src={CSS} alt="CSS" className=" mx-10 min-w-[48px] w-[48px]" />
-          {/* <img src={Sass} alt="Sass" className=' mx-10 min-w-[48px] w-[48px]' /> */}
-          <img
-            src={Bootstrap}
-            alt="Bootstrap"
-            className=" mx-10 min-w-[60px] w-[60px]"
-          />
-          <img
-            src={Tailwind}
-            alt="Tailwind"
-            className=" mx-10 min-w-[60px] w-[60px]"
-          />
-          <img
-            src={JavaScript}
-            alt="JavaScript"
-            className=" mx-10 min-w-[60px] w-[60px]"
-          />
-          <img
-            src={ReactJS}
-            alt="ReactJS"
-            className=" mx-10 min-w-[130px] w-[130px]"
-          />
-          {/* <img src={Next} alt="Next" className=' mx-10 min-w-[130px] w-[130px]' /> */}
-          <img src={HTML} alt="HTML" className=" mx-10 min-w-[50px] w-[50px]" />
-          <img src={CSS} alt="CSS" className=" mx-10 min-w-[48px] w-[48px]" />
-          {/* <img src={Sass} alt="Sass" className=' mx-10 min-w-[48px] w-[48px]' /> */}
-          <img
-            src={Bootstrap}
-            alt="Bootstrap"
-            className=" mx-10 min-w-[60px] w-[60px]"
-          />
-          <img
-            src={Tailwind}
-            alt="Tailwind"
-            className=" mx-10 min-w-[60px] w-[60px]"
-          />
-          <img
-            src={JavaScript}
-            alt="JavaScript"
-            className=" mx-10 min-w-[60px] w-[60px]"
-          />
-          <img
-            src={ReactJS}
-            alt="ReactJS"
-            className=" mx-10 min-w-[130px] w-[130px]"
-          />
-          {/* <img src={Next} alt="Next" className=' mx-10 min-w-[130px] w-[130px]' /> */}
+        <div className="w-[1100px] mx-auto max-w-full flex items-center whitespace-nowrap  mt-10 overflow-hidden ">
+          <div className="flex items-center gap-1 scroll-right-to-left">
+            <img
+              src={HTML}
+              alt="HTML"
+              className=" mx-10 min-w-[50px] w-[50px]"
+            />
+            <img src={CSS} alt="CSS" className=" mx-10 min-w-[48px] w-[48px]" />
+            {/* <img src={Sass} alt="Sass" className=' mx-10 min-w-[48px] w-[48px]' /> */}
+            <img
+              src={Bootstrap}
+              alt="Bootstrap"
+              className=" mx-10 min-w-[60px] w-[60px]"
+            />
+            <img
+              src={Tailwind}
+              alt="Tailwind"
+              className=" mx-10 min-w-[60px] w-[60px]"
+            />
+            <img
+              src={JavaScript}
+              alt="JavaScript"
+              className=" mx-10 min-w-[60px] w-[60px]"
+            />
+            <img
+              src={ReactJS}
+              alt="ReactJS"
+              className=" mx-10 min-w-[130px] w-[130px]"
+            />
+            {/* <img src={Next} alt="Next" className=' mx-10 min-w-[130px] w-[130px]' /> */}
+            <img
+              src={HTML}
+              alt="HTML"
+              className=" mx-10 min-w-[50px] w-[50px]"
+            />
+            <img src={CSS} alt="CSS" className=" mx-10 min-w-[48px] w-[48px]" />
+            {/* <img src={Sass} alt="Sass" className=' mx-10 min-w-[48px] w-[48px]' /> */}
+            <img
+              src={Bootstrap}
+              alt="Bootstrap"
+              className=" mx-10 min-w-[60px] w-[60px]"
+            />
+            <img
+              src={Tailwind}
+              alt="Tailwind"
+              className=" mx-10 min-w-[60px] w-[60px]"
+            />
+            <img
+              src={JavaScript}
+              alt="JavaScript"
+              className=" mx-10 min-w-[60px] w-[60px]"
+            />
+            <img
+              src={ReactJS}
+              alt="ReactJS"
+              className=" mx-10 min-w-[130px] w-[130px]"
+            />
+            {/* <img src={Next} alt="Next" className=' mx-10 min-w-[130px] w-[130px]' /> */}
+          </div>
+          <div className="flex items-center gap-1 scroll-right-to-left">
+            <img
+              src={HTML}
+              alt="HTML"
+              className=" mx-10 min-w-[50px] w-[50px]"
+            />
+            <img src={CSS} alt="CSS" className=" mx-10 min-w-[48px] w-[48px]" />
+            {/* <img src={Sass} alt="Sass" className=' mx-10 min-w-[48px] w-[48px]' /> */}
+            <img
+              src={Bootstrap}
+              alt="Bootstrap"
+              className=" mx-10 min-w-[60px] w-[60px]"
+            />
+            <img
+              src={Tailwind}
+              alt="Tailwind"
+              className=" mx-10 min-w-[60px] w-[60px]"
+            />
+            <img
+              src={JavaScript}
+              alt="JavaScript"
+              className=" mx-10 min-w-[60px] w-[60px]"
+            />
+            <img
+              src={ReactJS}
+              alt="ReactJS"
+              className=" mx-10 min-w-[130px] w-[130px]"
+            />
+            {/* <img src={Next} alt="Next" className=' mx-10 min-w-[130px] w-[130px]' /> */}
+            <img
+              src={HTML}
+              alt="HTML"
+              className=" mx-10 min-w-[50px] w-[50px]"
+            />
+            <img src={CSS} alt="CSS" className=" mx-10 min-w-[48px] w-[48px]" />
+            {/* <img src={Sass} alt="Sass" className=' mx-10 min-w-[48px] w-[48px]' /> */}
+            <img
+              src={Bootstrap}
+              alt="Bootstrap"
+              className=" mx-10 min-w-[60px] w-[60px]"
+            />
+            <img
+              src={Tailwind}
+              alt="Tailwind"
+              className=" mx-10 min-w-[60px] w-[60px]"
+            />
+            <img
+              src={JavaScript}
+              alt="JavaScript"
+              className=" mx-10 min-w-[60px] w-[60px]"
+            />
+            <img
+              src={ReactJS}
+              alt="ReactJS"
+              className=" mx-10 min-w-[130px] w-[130px]"
+            />
+            {/* <img src={Next} alt="Next" className=' mx-10 min-w-[130px] w-[130px]' /> */}
+          </div>
         </div>
-      </div>
-      <div className="w-[1100px] mx-auto max-w-full flex items-center whitespace-nowrap  mt-10 overflow-hidden ">
-        <div className="flex items-center gap-1 scroll-right-to-left scroll-left-to-right">
-          <img
-            src={Node}
-            alt="Node"
-            className=" mx-10 min-w-[130px] w-[130px]"
-          />
-          <img
-            src={Express}
-            alt="Express"
-            className=" mx-10 min-w-[130px] w-[130px]"
-          />
-          <img
-            src={MongoDB}
-            alt="MongoDB"
-            className=" mx-10 min-w-[130px] w-[130px]"
-          />
-          <img
-            src={Mongoose}
-            alt="Mongoose"
-            className=" mx-10 min-w-[130px] w-[130px]"
-          />
-          <img
-            src={Myskills}
-            alt="Myskills"
-            className=" mx-10 min-w-[130px] w-[130px]"
-          />
-          <img
-            src={Node}
-            alt="Node"
-            className=" mx-10 min-w-[130px] w-[130px]"
-          />
-          <img
-            src={Express}
-            alt="Express"
-            className=" mx-10 min-w-[130px] w-[130px]"
-          />
-          <img
-            src={MongoDB}
-            alt="MongoDB"
-            className=" mx-10 min-w-[130px] w-[130px]"
-          />
-          <img
-            src={Mongoose}
-            alt="Mongoose"
-            className=" mx-10 min-w-[130px] w-[130px]"
-          />
-          <img
-            src={Myskills}
-            alt="Myskills"
-            className=" mx-10 min-w-[130px] w-[130px]"
-          />
+        <div className="w-[1100px] mx-auto max-w-full flex items-center whitespace-nowrap  mt-10 overflow-hidden ">
+          <div className="flex items-center gap-1 scroll-right-to-left scroll-left-to-right">
+            <img
+              src={Node}
+              alt="Node"
+              className=" mx-10 min-w-[130px] w-[130px]"
+            />
+            <img
+              src={Express}
+              alt="Express"
+              className=" mx-10 min-w-[130px] w-[130px]"
+            />
+            <img
+              src={MongoDB}
+              alt="MongoDB"
+              className=" mx-10 min-w-[130px] w-[130px]"
+            />
+            <img
+              src={Mongoose}
+              alt="Mongoose"
+              className=" mx-10 min-w-[130px] w-[130px]"
+            />
+            <img
+              src={Myskills}
+              alt="Myskills"
+              className=" mx-10 min-w-[130px] w-[130px]"
+            />
+            <img
+              src={Node}
+              alt="Node"
+              className=" mx-10 min-w-[130px] w-[130px]"
+            />
+            <img
+              src={Express}
+              alt="Express"
+              className=" mx-10 min-w-[130px] w-[130px]"
+            />
+            <img
+              src={MongoDB}
+              alt="MongoDB"
+              className=" mx-10 min-w-[130px] w-[130px]"
+            />
+            <img
+              src={Mongoose}
+              alt="Mongoose"
+              className=" mx-10 min-w-[130px] w-[130px]"
+            />
+            <img
+              src={Myskills}
+              alt="Myskills"
+              className=" mx-10 min-w-[130px] w-[130px]"
+            />
+          </div>
+          <div className="flex items-center gap-1 scroll-right-to-left scroll-left-to-right">
+            <img
+              src={Node}
+              alt="Node"
+              className=" mx-10 min-w-[130px] w-[130px]"
+            />
+            <img
+              src={Express}
+              alt="Express"
+              className=" mx-10 min-w-[130px] w-[130px]"
+            />
+            <img
+              src={MongoDB}
+              alt="MongoDB"
+              className=" mx-10 min-w-[130px] w-[130px]"
+            />
+            <img
+              src={Mongoose}
+              alt="Mongoose"
+              className=" mx-10 min-w-[130px] w-[130px]"
+            />
+            <img
+              src={Myskills}
+              alt="Myskills"
+              className=" mx-10 min-w-[130px] w-[130px]"
+            />
+            <img
+              src={Node}
+              alt="Node"
+              className=" mx-10 min-w-[130px] w-[130px]"
+            />
+            <img
+              src={Express}
+              alt="Express"
+              className=" mx-10 min-w-[130px] w-[130px]"
+            />
+            <img
+              src={MongoDB}
+              alt="MongoDB"
+              className=" mx-10 min-w-[130px] w-[130px]"
+            />
+            <img
+              src={Mongoose}
+              alt="Mongoose"
+              className=" mx-10 min-w-[130px] w-[130px]"
+            />
+            <img
+              src={Myskills}
+              alt="Myskills"
+              className=" mx-10 min-w-[130px] w-[130px]"
+            />
+          </div>
         </div>
-        <div className="flex items-center gap-1 scroll-right-to-left scroll-left-to-right">
-          <img
-            src={Node}
-            alt="Node"
-            className=" mx-10 min-w-[130px] w-[130px]"
-          />
-          <img
-            src={Express}
-            alt="Express"
-            className=" mx-10 min-w-[130px] w-[130px]"
-          />
-          <img
-            src={MongoDB}
-            alt="MongoDB"
-            className=" mx-10 min-w-[130px] w-[130px]"
-          />
-          <img
-            src={Mongoose}
-            alt="Mongoose"
-            className=" mx-10 min-w-[130px] w-[130px]"
-          />
-          <img
-            src={Myskills}
-            alt="Myskills"
-            className=" mx-10 min-w-[130px] w-[130px]"
-          />
-          <img
-            src={Node}
-            alt="Node"
-            className=" mx-10 min-w-[130px] w-[130px]"
-          />
-          <img
-            src={Express}
-            alt="Express"
-            className=" mx-10 min-w-[130px] w-[130px]"
-          />
-          <img
-            src={MongoDB}
-            alt="MongoDB"
-            className=" mx-10 min-w-[130px] w-[130px]"
-          />
-          <img
-            src={Mongoose}
-            alt="Mongoose"
-            className=" mx-10 min-w-[130px] w-[130px]"
-          />
-          <img
-            src={Myskills}
-            alt="Myskills"
-            className=" mx-10 min-w-[130px] w-[130px]"
-          />
-        </div>
-      </div>
-      <div className="w-[1100px] mx-auto max-w-full flex items-center whitespace-nowrap  mt-10 overflow-hidden ">
-        <div className="flex items-center gap-1 scroll-right-to-left">
-          <img
-            src={Flowbite}
-            alt="Flowbite"
-            className=" mx-10 min-w-[130px] w-[130px]"
-          />
-          <img
+        <div className="w-[1100px] mx-auto max-w-full flex items-center whitespace-nowrap  mt-10 overflow-hidden ">
+          <div className="flex items-center gap-1 scroll-right-to-left">
+            <img
+              src={Flowbite}
+              alt="Flowbite"
+              className=" mx-10 min-w-[130px] w-[130px]"
+            />
+            {/* <img
             src={DaisyUI}
             alt="DaisyUI"
             className=" mx-10 min-w-[130px] w-[130px]"
-          />
-          <img
-            src={MaterialUI}
-            alt="MaterialUI"
-            className=" mx-10 min-w-[130px] w-[130px]"
-          />
-          <img
-            src={Github}
-            alt="Github"
-            className=" mx-10 min-w-[130px] w-[130px]"
-          />
-          {/* <img src={Jira} alt="Jira" className=' mx-10 min-w-[130px] w-[130px]' /> */}
-          <img
-            src={Flowbite}
-            alt="Flowbite"
-            className=" mx-10 min-w-[130px] w-[130px]"
-          />
-          <img
+          /> */}
+            <img
+              src={MaterialUI}
+              alt="MaterialUI"
+              className=" mx-10 min-w-[130px] w-[130px]"
+            />
+            <img
+              src={Github}
+              alt="Github"
+              className=" mx-10 min-w-[130px] w-[130px]"
+            />
+            {/* <img src={Jira} alt="Jira" className=' mx-10 min-w-[130px] w-[130px]' /> */}
+            <img
+              src={Flowbite}
+              alt="Flowbite"
+              className=" mx-10 min-w-[130px] w-[130px]"
+            />
+            {/* <img
             src={DaisyUI}
             alt="DaisyUI"
             className=" mx-10 min-w-[130px] w-[130px]"
-          />
-          <img
-            src={MaterialUI}
-            alt="MaterialUI"
-            className=" mx-10 min-w-[130px] w-[130px]"
-          />
-          <img
-            src={Github}
-            alt="Github"
-            className=" mx-10 min-w-[130px] w-[130px]"
-          />
-          {/* <img src={Jira} alt="Jira" className=' mx-10 min-w-[130px] w-[130px]' /> */}
-        </div>
-        <div className="flex items-center gap-1 scroll-right-to-left">
-          <img
-            src={Flowbite}
-            alt="Flowbite"
-            className=" mx-10 min-w-[130px] w-[130px]"
-          />
-          <img
+          /> */}
+            <img
+              src={MaterialUI}
+              alt="MaterialUI"
+              className=" mx-10 min-w-[130px] w-[130px]"
+            />
+            <img
+              src={Github}
+              alt="Github"
+              className=" mx-10 min-w-[130px] w-[130px]"
+            />
+            {/* <img src={Jira} alt="Jira" className=' mx-10 min-w-[130px] w-[130px]' /> */}
+          </div>
+          <div className="flex items-center gap-1 scroll-right-to-left">
+            <img
+              src={Flowbite}
+              alt="Flowbite"
+              className=" mx-10 min-w-[130px] w-[130px]"
+            />
+            {/* <img
             src={DaisyUI}
             alt="DaisyUI"
             className=" mx-10 min-w-[130px] w-[130px]"
-          />
-          <img
-            src={MaterialUI}
-            alt="MaterialUI"
-            className=" mx-10 min-w-[130px] w-[130px]"
-          />
-          <img
-            src={Github}
-            alt="Github"
-            className=" mx-10 min-w-[130px] w-[130px]"
-          />
-          {/* <img src={Jira} alt="Jira" className=' mx-10 min-w-[130px] w-[130px]' /> */}
-          <img
-            src={Flowbite}
-            alt="Flowbite"
-            className=" mx-10 min-w-[130px] w-[130px]"
-          />
-          <img
+          /> */}
+            <img
+              src={MaterialUI}
+              alt="MaterialUI"
+              className=" mx-10 min-w-[130px] w-[130px]"
+            />
+            <img
+              src={Github}
+              alt="Github"
+              className=" mx-10 min-w-[130px] w-[130px]"
+            />
+            {/* <img src={Jira} alt="Jira" className=' mx-10 min-w-[130px] w-[130px]' /> */}
+            <img
+              src={Flowbite}
+              alt="Flowbite"
+              className=" mx-10 min-w-[130px] w-[130px]"
+            />
+            {/* <img
             src={DaisyUI}
             alt="DaisyUI"
             className=" mx-10 min-w-[130px] w-[130px]"
-          />
-          <img
-            src={MaterialUI}
-            alt="MaterialUI"
-            className=" mx-10 min-w-[130px] w-[130px]"
-          />
-          <img
-            src={Github}
-            alt="Github"
-            className=" mx-10 min-w-[130px] w-[130px]"
-          />
-          {/* <img src={Jira} alt="Jira" className=' mx-10 min-w-[130px] w-[130px]' /> */}
+          /> */}
+            <img
+              src={MaterialUI}
+              alt="MaterialUI"
+              className=" mx-10 min-w-[130px] w-[130px]"
+            />
+            <img
+              src={Github}
+              alt="Github"
+              className=" mx-10 min-w-[130px] w-[130px]"
+            />
+            {/* <img src={Jira} alt="Jira" className=' mx-10 min-w-[130px] w-[130px]' /> */}
+          </div>
         </div>
       </div>
     </>
   );
 }
 
-export default InfinityScroll;
 
-// <img src={HTML} alt="HTML" className='min-w-[50px] w-[50px]' />
+

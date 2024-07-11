@@ -29,8 +29,8 @@ export default function Resume() {
     //   </div>
     // </section>
 
-    <section class="">
-      <div class="px-4 mx-auto max-w-screen-xl text-center py-24 lg:py-52">
+    <section  id="Resume" class=" b rounded-md">
+      <div class="px-4 mx-auto max-w-screen-xl text-center   py-24 lg:py-52">
         <h1 class="mb-4 text-4xl font-extrabold tracking-tight leading-none text-white md:text-5xl lg:text-6xl">
           ABOUT ME
         </h1>
@@ -45,7 +45,7 @@ export default function Resume() {
             href="https://acrobat.adobe.com/id/urn:aaid:sc:AP:74b05de0-c92a-4be1-9b59-f8181ed25e59"
             class="inline-flex justify-center items-center py-3 px-5 text-base font-medium text-center text-white rounded-lg bg-blue-700 hover:bg-blue-800 focus:ring-4 focus:ring-blue-300 dark:focus:ring-blue-900"
           >
-            resume
+            Resume
             <svg
               class="w-3.5 h-3.5 ms-2 rtl:rotate-180"
               aria-hidden="true"
@@ -61,12 +61,6 @@ export default function Resume() {
                 d="M1 5h12m0 0L9 1m4 4L9 9"
               />
             </svg>
-          </a>
-          <a
-            href="#"
-            class="inline-flex justify-center hover:text-gray-900 items-center py-3 px-5 sm:ms-4 text-base font-medium text-center text-white rounded-lg border border-white hover:bg-gray-100 focus:ring-4 focus:ring-gray-400"
-          >
-            Learn more
           </a>
         </div>
       </div>

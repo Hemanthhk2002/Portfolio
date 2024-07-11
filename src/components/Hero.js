@@ -3,14 +3,14 @@ import { IoMdMail, IoLogoLinkedin, IoLogoGithub } from "react-icons/io";
 
 export default function Herio() {
   return (
-    <section id="Hero" className="flex px-5 py-32 justify-center gap-12">
+    <section id="Hero" className="flex px-5 py-32 justify-center gap-12 ">
       <div className="w-1/2 flex flex-col">
-        <h1 className=" text-5xl py-20 font-hero-font">
+        <h1 className=" text-3xl py-20 font-hero-font">
           Hi,
           <br />
-          <b>Iam Hemanth Kumar V</b>
+          <b className="text-5xl">I am Hemanth Kumar V</b>
           <br />
-          <p className="text-2xl text-gray-300">Im a Full-stack developer</p>
+          <p className="text-2xl text-gray-300">MCA</p>
           <div className="flex gap-5  py-5">
             <a
               className="hover:text-gray-500"
@@ -35,7 +35,7 @@ export default function Herio() {
         </h1>{" "}
       </div>
 
-      <img class="profile rounded-xl" src={bgimage} />
+      <img class="profile rounded-xl border-black   border-4 border-solid  shadow-lg shadow-zinc-400   hover:shadow-xl  hover:border-dotted " src={bgimage} />
     </section>
   );
 }
