@@ -6,8 +6,11 @@ module.exports = {
   ],
   theme: {
     extend: {
+      backgroundImage: {
+        "hero-pattern": "url('./images/bg-secondary.jpg')",
+      },
       backdropBlur: {
-        xs: '2px',
+        xs: "2px",
       },
     },
     fontFamily: {
