@@ -1,7 +1,6 @@
 import React from "react";
 import "./App.css";
 import Header from "./components/Header";
-import profilePhoto from "/Users/hemanthkumar/Documents/MCA/23mx110/portfolio/src/images/profile.jpeg"; // Import your profile photo
 import Hero from "./components/Hero";
 import About from "./components/About";
 
