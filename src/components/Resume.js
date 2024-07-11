@@ -1,4 +1,4 @@
-import ResumeImg from "/Users/hemanthkumar/Documents/MCA/23mx110/portfolio/src/images/resumeimg.png";
+
 
 export default function Resume() {
   const config = {
